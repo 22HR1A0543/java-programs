@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class break12
+{
+	public static void main(String[] args)
+	 {
+	 	Scanner sc=new Scanner(System.in);
+		//int n=sc.nextInt();
+int i=0;
+while(i<25)
+{
+i++;
+
+//if(i%5==0)break;
+if(i%5==0)continue;
+System.out.print(i+" ");
+}
+}
+}
