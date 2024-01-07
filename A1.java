@@ -1,7 +1,6 @@
-//this:to pass as argument in the constructor call
-class A1
-{
-	int data=10;
-	A1(){
-		B b=new
-}
+class A1{
+static final int data;//static blank final variable
+static{data=50;}
+public static void main(String[]args){
+System.out.println(A1.data);
+}}
